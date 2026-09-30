@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-lcd {
+  font-family: 'Share Tech Mono', 'VT323', monospace;
+  letter-spacing: 0.08em;
+}
+
+.font-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Subtle dot-matrix overlay for LCD screen */
+.lcd-grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.12) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.12) 1px, transparent 1px);
+  background-size: 4px 4px;
+}
+
+/* Custom scrollbars for serial monitor */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #090d16;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}

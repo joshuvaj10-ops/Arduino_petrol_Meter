@@ -1,0 +1,6 @@
+{
+  "name": "Arduino Petrol Meter & Hardware Telemetry Simulator",
+  "description": "Interactive hardware twin, 16x2 LCD display, IR pulse sensor, analog fuel gauge, real-time mileage calculator, and serial monitor console for Arduino Petrol Meter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
